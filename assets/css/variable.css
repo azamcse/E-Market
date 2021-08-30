@@ -1,0 +1,23 @@
+
+
+
+
+:root{
+    --colorGray:#444;
+    --colorBlack:#000;
+    --colorWhite:#fff;
+    /* background */
+    --bgRed:#ff0000;
+    --bgHred:#aa1a1a;
+
+
+/* font Size */
+   --fontS12:12px;
+   --fontS13:13px;
+   --fontS14:14px;
+   --fontS15:15px;
+   --fontS16:16px;
+   --fontS24:24px;
+   --fontS30:30px;
+   --fontS40:40px;
+}

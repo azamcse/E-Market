@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-details | emarkets</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- variable css -->
+    <link rel="stylesheet" href="assets/css/variable.css">
+    <!-- commoon css -->
+    <link rel="stylesheet" href="assets/css/common.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+<header class="header_area productNav">
+    <!-- navbar -->
+    <div class="navBar">
+        <div class="container">
+            <div class="navBar_wrapper">
+                <!-- header logo -->
+                <div class="navBar_logo">
+                    <a href="index.html"><h3 class="barndLogo">eMarket</h3></a>
+                </div>
+                <!-- navigation area -->
+                <nav class="navigationn_area">
+                    <ul class="navBar_list">
+                        <li class="navBar_item"><a class="navBar-link" href="index.html">Home</a></li>
+                        <li class="navBar_item"><a class="navBar-link" href="product.html">Products</a></li>
+                        <li class="navBar_item"><a class="navBar-link" href="#">About</a></li>
+                        <li class="navBar_item"><a class="navBar-link" href="#">Contact</a></li>
+                        <li class="navBar_item"><a class="navBar-link" href="account.html">Account</a></li>
+                    </ul>
+                    <!-- cart image -->
+                    <div class="cart_image">
+                        <a href="cart.html" class="cartIcon"><img src="images/cart.png" alt=""></a>
+                    </div>
+                    <!-- toggleBar -->
+                    <nav class="toggleBar">
+                        <ul class="toggle_menu">
+                            <li class="toggleIcon"></li>
+                            <li class="toggleIcon"></li>
+                            <li class="toggleIcon"></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- ======================================================
+====================  ACCOUNT SECTION START ================
+========================================================= -->
+
+<div class="account_section">
+    <div class="container">
+        <div class="acoount_info">
+            <div class="accont_image">
+                <img src="images/image1.png" alt="">
+            </div>
+            <div class="accont_area">
+                <span onclick="loginA()">login</span>
+               
+                <span onclick="registerA()">register</span>
+                <hr id="indicator" class="indicator">
+              
+                <form action="" id="loginArea" class="login">
+                    <input type="text"placeholder="User Name">
+                    <input type="password"placeholder="Password">
+                    <a href="#" class="forgotPass">forgot Password?</a>
+                </form>
+                <form action="" id="registerArea"class="register">
+                    <input type="text"placeholder="User Name">
+                    <input type="email"placeholder="Email">
+                    <input type="password"placeholder="Password">
+                   <button class="btn">Send</button>
+                </form>
+              
+            </div>
+           
+        </div>
+       
+    </div>
+</div>
+
+
+<!-- ======================================================
+====================  ACCOUNT SECTION END ================
+========================================================= -->
+
+
+
+
+
+
+<!-- ======================================================
+==================== START FOOTER AREA   ===================
+========================================================= -->
+
+<div class="footer_section pT50">
+    <div class="container">
+        <div class="footer_wrapper">
+            <div class="footer_top mB10">
+                <div class="download">
+                    <h1 class="footer_title mB10">Download Our App</h1>
+                    <p class="footer-link mB10">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, dicta?</p>
+                    <a class="playStoreLink mR6" href="#"><img src="images/play-store.png" alt="" class="footer_image"></a>
+                    <a class="playStoreLink" href="#"><img src="images/app-store.png" alt="" class="footer_image"></a>
+                </div>
+
+                <div class="readStore">
+                    <a href="#"><img src="images/logo.png" alt="" class="footer_image"></a>
+                    <p class="footer-link">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                    <p class="footer-link">Lorem ipsum dolor sit amet consectetur</p>
+                
+                </div>
+                <div class="usefull_links">
+                    <h1 class="footer_title">usefull links </h1>
+                    <nav class="footer_navigations">
+                        <ul class="footer_list">
+                            <li class="footer_item"><a class="footer-link" href="#">Coupons</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">Blog Post</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">Returns policy</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">join Affiliate</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_getTouch">
+                    <h1 class="footer_title">Get in Touc</h1>
+                    <nav class="footer_navigations">
+                        <ul class="footer_list">
+                            <li class="footer_item"><a class="footer-link" href="#">Facebook</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">Twitter</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">Instagram</a></li>
+                            <li class="footer_item"><a class="footer-link" href="#">Youtube</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr>
+            <div class="footer_bottom">
+                <p class="footer-link">&copy;Nilphamari ,kishoreganj</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ======================================================
+====================== END FOOTER AREA ===================
+========================================================= -->
+
+
+
+
+
+
+<script src="assets/js/app.js"></script>
+
+</body>
+</html>
